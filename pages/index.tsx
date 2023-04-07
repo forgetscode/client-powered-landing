@@ -18,7 +18,7 @@ const Home: NextPage = () => {
 
     {/* Main Content */}
     <div className="container mx-auto px-8 flex-grow grid place-items-center -mb-60 pt-60">
-      <div className="grid grid-rows-2 grid-cols-2 gap-8 items-center justify-center">
+      <div className="grid grid-rows-2 grid-cols-1 sm:grid-cols-2 gap-8 items-center justify-center">
         <div className="w-full space-y-6 z-40">
           <h1 className="text-4xl lg:text-8xl font-black bg-clip-text text-transparent bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 animate-hue-rotate">
             Client Powered
@@ -121,7 +121,7 @@ const Home: NextPage = () => {
             </div>
             <p className='text-2xl font-semibold'>Jamal Lancrest, HR Block</p>
           </div>
-          <blockquote className="text-white bg-indigo-400 rounded-lg p-4 tracking-wide font-medium md:text-xl mt-2 lg:mt-4 before:block before:content-open-quote before:text-2xl before:text-blue-500 before:mx-auto before:mb-2">
+          <blockquote className="text-white bg-indigo-400 rounded-lg p-4 tracking-wide font-medium md:text-xl mt-2 lg:mt-4 before:block before:content-open-quote before:text-2xl before:text-blue-500 before:mx-auto">
             Before using Client Powered, we were spending a significant amount of time chasing down clients for signatures and approvals. With the platform's automated reminders and tracking system, we've been able to reduce the time spent on this task by 70%. This has allowed us to focus on more important tasks, resulting in a more productive and efficient workflow. We highly recommend Client Powered to any business looking to streamline their client communication and save valuable time.
           </blockquote>
         </div>
@@ -132,7 +132,7 @@ const Home: NextPage = () => {
             </div>
             <p className='text-2xl font-semibold'>Armani Hakim, Turbo Tax</p>
           </div>
-          <blockquote className="text-white bg-indigo-400 rounded-lg p-4 tracking-wide font-medium md:text-xl mt-2 lg:mt-4 before:block before:content-open-quote before:text-2xl before:text-blue-500 before:mx-auto before:mb-2">
+          <blockquote className="text-white bg-indigo-400 rounded-lg p-4 tracking-wide font-medium md:text-xl mt-2 lg:mt-4 before:block before:content-open-quote before:text-2xl before:text-blue-500 before:mx-auto">
             Since implementing Client Powered, we've seen a significant reduction in client churn and an increase in satisfaction. It's become an essential tool for our business.
           </blockquote>
         </div>
