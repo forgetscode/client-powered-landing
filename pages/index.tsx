@@ -17,7 +17,7 @@ const Home: NextPage = () => {
     </div>
 
     {/* Main Content */}
-    <div className="container mx-auto px-8 flex-grow grid place-items-center -mb-60 pt-60">
+    <div className="container mx-auto px-8 flex-grow grid place-items-center -mb-64 pt-64">
       <div className="grid grid-rows-2 grid-cols-1 sm:grid-cols-2 gap-8 items-center justify-center">
         <div className="w-full space-y-6 z-40">
           <h1 className="text-4xl lg:text-8xl font-black bg-clip-text text-transparent bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 animate-hue-rotate">
@@ -42,13 +42,15 @@ const Home: NextPage = () => {
             alt="Accounting"
             width={550}
             height={550}
+            placeholder="blur"
+            blurDataURL="/blur.jpg"
           />
         </div>
       </div>
     </div>
 
     {/* Blue Wavy Border */}
-    <div className="lg:flex hidden w-full overflow-hidden flex z-20 -mt-[460px]">
+    <div className="xl:flex hidden w-full overflow-hidden flex z-20 -mt-[460px]">
       <svg className="w-full h-72" viewBox="0 0 1440 200" fill="none" preserveAspectRatio="none">
         <path d="M0 0C120 26.6667 240 53.3333 360 80C480 106.667 600 133.333 720 160C840 186.667 960 213.333 1080 160C1200 106.667 1320 53.3333 1440 0V200H0V0Z" fill="#90CDF4" />
         <path d="M0 0C120 13.3333 240 26.6667 360 40C480 53.3333 600 66.6667 720 80C840 93.3333 960 106.667 1080 80C1200 53.3333 1320 26.6667 1440 0V200H0V0Z" fill="#BFDBFE" />
@@ -89,6 +91,8 @@ const Home: NextPage = () => {
             alt="Accounting"
             width={550}
             height={550}
+            placeholder="blur"
+            blurDataURL="/blur.jpg"
           />
         </div>
       </div>
@@ -117,7 +121,8 @@ const Home: NextPage = () => {
         <div className='flex flex-col'>
           <div className="flex flex-row items-center space-x-4">
             <div className="relative rounded-full overflow-hidden w-24 h-24 lg:w-32 lg:h-32">
-              <Image src="/man1.png" alt="Testimonial 1" layout="fill" objectFit="cover" />
+              <div className="bg-gray-300 w-full h-full"></div>
+              <Image src="/man1.png" alt="Testimonial 1" layout="fill" objectFit="cover" placeholder="blur" blurDataURL="/blur.jpg" />
             </div>
             <p className='text-2xl font-semibold'>Jamal Lancrest, HR Block</p>
           </div>
@@ -128,7 +133,8 @@ const Home: NextPage = () => {
         <div className='flex flex-col'>
           <div className="flex flex-row items-center space-x-4">
             <div className="relative rounded-full overflow-hidden w-24 h-24 lg:w-32 lg:h-32">
-              <Image src="/man2.png" alt="Testimonial 1" layout="fill" objectFit="cover" />
+              <div className="bg-gray-300 w-full h-full"></div>
+              <Image src="/man2.png" alt="Testimonial 1" layout="fill" objectFit="cover" placeholder="blur" blurDataURL="/blur.jpg"/>
             </div>
             <p className='text-2xl font-semibold'>Armani Hakim, Turbo Tax</p>
           </div>
@@ -146,7 +152,6 @@ const Home: NextPage = () => {
         />
       </div>
     </div>
-
 
     <div className="w-full overflow-hidden flex pt-16">
       <svg className="w-full h-32" viewBox="0 0 1440 200" fill="none" preserveAspectRatio="none">
